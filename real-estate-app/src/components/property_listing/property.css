@@ -1,0 +1,75 @@
+.Search{
+    font-family: 'Source Sans Pro';
+    font-size: larger;
+    background-color: #f6f4f4;
+    margin-left: 22%;
+    height: 5rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 5px;
+}
+
+.Add_property {
+    font-family: 'Source Sans Pro';
+    font-size: larger;
+    background-color: #f6f4f4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+    margin-left: 75%;
+    width: 50%;
+    font-size: large;
+}
+
+.Add_property button{
+    background-color:  #6AB4F8;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    border: transparent;
+}
+.Search_input{
+    position: relative;
+    width: 60%;
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+.attributes{
+    margin: .5rem .5rem;   
+    /* text-align: center; */
+    border: transparent;
+    background-color: #FFFFFF;
+    margin-left: 22%;
+    border-radius: 5rem;
+}
+.name{
+    display: inline-block;
+    padding: 2rem 2rem 2rem;
+    margin-left: none;
+    margin-left: 2rem;
+    width: 5rem;
+    color: #284E91;
+}
+.data{
+    margin: .5rem .5rem;   
+    /* text-align: center; */
+    border: transparent;
+    background-color: #FFFFFF;
+    margin-left: 22%;
+    border-radius: 5rem;
+}
+
+.item{
+    display: inline-block;
+    padding: 2rem 2rem 2rem;
+    margin-left: none;
+    margin-left: 2rem;
+    width: 5rem;
+    color: black;
+}

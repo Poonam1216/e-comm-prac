@@ -1,0 +1,38 @@
+
+.sidebar{
+    background-color:#c1e4df;
+    height:100vh;
+    width: 20%;
+    color:rgb(0, 0, 0);
+    position:fixed;
+    top:0px;
+    left:0p;
+    bottom:0px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.logo{
+    font-size:  3rem;
+    margin-top: 2rem;
+}
+.list_name{
+    color: #AAAAAA;
+    font-size: 2rem;
+    font-weight: 400;
+    display:flow-root;
+    column-gap: 2rem;
+    flex-direction: column;
+    list-style: none;
+    line-height: 2.1rem;
+    margin-bottom: 5rem;
+    margin-top: 10rem;
+}
+
+.list_name :hover{
+    color: #2289FF;
+    font-size: 2.5rem;  
+}
+
