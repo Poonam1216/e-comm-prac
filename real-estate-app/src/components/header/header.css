@@ -1,6 +1,6 @@
 .header{
-    background: white;
-    font-size: large;
+    background-color: #f6f4f4;
+    font-size: normal;
 }
 
 .header{
@@ -17,9 +17,11 @@
 
    .left{
     margin-left: 10%;
+    font-size: large;
    }
    .right{
     margin-right: 5%;
+    font-size: large;
    }
 
 .userID{

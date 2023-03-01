@@ -6,6 +6,7 @@ const Header =()=>{
                 <div className="left"> USER ID
                 </div>
                 <div className="right">
+                <i class="fa fa-user" aria-hidden="true"></i>
                 <select name="userID" className="userID">
                      <option value="user_name"> User Name </option>
                      <option value="login">Logout</option>

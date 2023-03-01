@@ -1,10 +1,13 @@
+body{
+    background-color: #f6f4f4;
+}
 .Search{
     font-family: 'Source Sans Pro';
-    font-size: larger;
+    font-size: normal;
     background-color: #f6f4f4;
     margin-left: 22%;
     height: 5rem;
-   display: flex;
+    display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
@@ -13,63 +16,78 @@
 
 .Add_property {
     font-family: 'Source Sans Pro';
-    font-size: larger;
+    font-size: normal;
     background-color: #f6f4f4;
     border-radius: 5px;
     display: flex;
     flex-direction:  row;
     justify-content: space-between;
-    margin-left: 75%;
-    width: 50%;
-    font-size: large;
+    margin-left: 60%;
+    width: 60%;
 }
 
 .Add_property button{
     background-color:  #6AB4F8;
-    padding: 1rem;
+    padding: .3rem;
     border-radius: 1.5rem;
     color: white;
-    font-family: 'Source Sans Pro';
-    font-style: normal;
     border: transparent;
+    font-size: normal;
 }
 .Search_input{
-    position: relative;
-    width: 60%;
-    height: 3rem;
-    border-radius: 2rem;
+    width: 90%;
+    font-size: normal;
 }
 
+.Search_input input{
+    padding: .4rem ;
+    border-radius: 1rem;
+    border: transparent;
+    width: auto;
+}
+.Search_input button{
+    padding: .1rem .1rem;
+    border-radius: .1rem;
+    border: transparent;
+}
 .attributes{
-    margin: .5rem .5rem;   
+    margin: 1rem 1rem;   
     /* text-align: center; */
+    width: 78%;
+    height: 2.5rem;
     border: transparent;
     background-color: #FFFFFF;
     margin-left: 22%;
     border-radius: 5rem;
+    font-size: large;
+    display: inline-block;
 }
 .name{
     display: inline-block;
-    padding: 2rem 2rem 2rem;
+    padding: .2rem .2rem .2rem;
     margin-left: none;
     margin-left: 2rem;
     width: 5rem;
     color: #284E91;
 }
 .data{
-    margin: .5rem .5rem;   
+    margin: .1rem .1rem;   
     /* text-align: center; */
     border: transparent;
     background-color: #FFFFFF;
     margin-left: 22%;
+    width: 78%;
+    height: 2.5rem;
     border-radius: 5rem;
+    font-size: normal;
 }
 
 .item{
     display: inline-block;
-    padding: 2rem 2rem 2rem;
+    padding: .2rem .2rem .2rem;
     margin-left: none;
     margin-left: 2rem;
     width: 5rem;
     color: black;
+    font-size: normal;
 }
